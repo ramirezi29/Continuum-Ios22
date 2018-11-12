@@ -8,20 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		470A4A672192588B0042DCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470A4A662192588B0042DCE8 /* AppDelegate.swift */; };
-		470A4A692192588B0042DCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470A4A682192588B0042DCE8 /* ViewController.swift */; };
 		470A4A6C2192588B0042DCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470A4A6A2192588B0042DCE8 /* Main.storyboard */; };
 		470A4A6E2192588E0042DCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470A4A6D2192588E0042DCE8 /* Assets.xcassets */; };
 		470A4A712192588E0042DCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470A4A6F2192588E0042DCE8 /* LaunchScreen.storyboard */; };
+		4721D3FC2193AB6900FFD44A /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3FB2193AB6900FFD44A /* PostListTableViewController.swift */; };
+		4721D3FE2193ABCC00FFD44A /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3FD2193ABCC00FFD44A /* PostDetailTableViewController.swift */; };
+		4721D4002193ABFC00FFD44A /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3FF2193ABFC00FFD44A /* AddPostTableViewController.swift */; };
+		4721D4022193AE4800FFD44A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D4012193AE4800FFD44A /* PostModel.swift */; };
+		4721D4042193B03000FFD44A /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D4032193B03000FFD44A /* CommentModel.swift */; };
+		4721D4062193B16A00FFD44A /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D4052193B16A00FFD44A /* PostController.swift */; };
+		4721D4092193CFFC00FFD44A /* PostConstantKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D4082193CFFC00FFD44A /* PostConstantKeys.swift */; };
+		4721D40B2193D1A700FFD44A /* UIViewCon+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D40A2193D1A700FFD44A /* UIViewCon+Alerts.swift */; };
+		4721D40D2193D4F800FFD44A /* CommentConstantKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D40C2193D4F800FFD44A /* CommentConstantKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		470A4A632192588B0042DCE8 /* Continuum-iOS22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Continuum-iOS22.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		470A4A662192588B0042DCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		470A4A682192588B0042DCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		470A4A6B2192588B0042DCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		470A4A6D2192588E0042DCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		470A4A702192588E0042DCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		470A4A722192588E0042DCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4721D3FB2193AB6900FFD44A /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostListTableViewController.swift; path = ../../../../../../../../PostListTableViewController.swift; sourceTree = "<group>"; };
+		4721D3FD2193ABCC00FFD44A /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		4721D3FF2193ABFC00FFD44A /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
+		4721D4012193AE4800FFD44A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		4721D4032193B03000FFD44A /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		4721D4052193B16A00FFD44A /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		4721D4082193CFFC00FFD44A /* PostConstantKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostConstantKeys.swift; sourceTree = "<group>"; };
+		4721D40A2193D1A700FFD44A /* UIViewCon+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewCon+Alerts.swift"; sourceTree = "<group>"; };
+		4721D40C2193D4F800FFD44A /* CommentConstantKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentConstantKeys.swift; sourceTree = "<group>"; };
+		47BBDCE9219263E9005D6209 /* Continuum-iOS22.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Continuum-iOS22.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +71,87 @@
 		470A4A652192588B0042DCE8 /* Continuum-iOS22 */ = {
 			isa = PBXGroup;
 			children = (
-				470A4A662192588B0042DCE8 /* AppDelegate.swift */,
-				470A4A682192588B0042DCE8 /* ViewController.swift */,
-				470A4A6A2192588B0042DCE8 /* Main.storyboard */,
-				470A4A6D2192588E0042DCE8 /* Assets.xcassets */,
-				470A4A6F2192588E0042DCE8 /* LaunchScreen.storyboard */,
-				470A4A722192588E0042DCE8 /* Info.plist */,
+				47BBDCE9219263E9005D6209 /* Continuum-iOS22.entitlements */,
+				4721D4072193CFE400FFD44A /* SupportingFiles */,
+				47BBDCE62192638D005D6209 /* ViewController */,
+				47BBDCE521926379005D6209 /* ModelController */,
+				47BBDCE42192636D005D6209 /* Model */,
+				47BBDCE321926361005D6209 /* UI */,
+				47BBDCE221926353005D6209 /* Resources */,
 			);
 			path = "Continuum-iOS22";
+			sourceTree = "<group>";
+		};
+		4721D4072193CFE400FFD44A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4721D4082193CFFC00FFD44A /* PostConstantKeys.swift */,
+				4721D40A2193D1A700FFD44A /* UIViewCon+Alerts.swift */,
+				4721D40C2193D4F800FFD44A /* CommentConstantKeys.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		47BBDCE221926353005D6209 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				470A4A662192588B0042DCE8 /* AppDelegate.swift */,
+				470A4A6D2192588E0042DCE8 /* Assets.xcassets */,
+				470A4A722192588E0042DCE8 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		47BBDCE321926361005D6209 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				47BBDCE8219263B8005D6209 /* View */,
+				47BBDCE7219263B7005D6209 /* storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		47BBDCE42192636D005D6209 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4721D4012193AE4800FFD44A /* PostModel.swift */,
+				4721D4032193B03000FFD44A /* CommentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47BBDCE521926379005D6209 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				4721D4052193B16A00FFD44A /* PostController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		47BBDCE62192638D005D6209 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4721D3FB2193AB6900FFD44A /* PostListTableViewController.swift */,
+				4721D3FD2193ABCC00FFD44A /* PostDetailTableViewController.swift */,
+				4721D3FF2193ABFC00FFD44A /* AddPostTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		47BBDCE7219263B7005D6209 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				470A4A6F2192588E0042DCE8 /* LaunchScreen.storyboard */,
+				470A4A6A2192588B0042DCE8 /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		47BBDCE8219263B8005D6209 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +186,14 @@
 				TargetAttributes = {
 					470A4A622192588B0042DCE8 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,8 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				470A4A692192588B0042DCE8 /* ViewController.swift in Sources */,
 				470A4A672192588B0042DCE8 /* AppDelegate.swift in Sources */,
+				4721D4042193B03000FFD44A /* CommentModel.swift in Sources */,
+				4721D40B2193D1A700FFD44A /* UIViewCon+Alerts.swift in Sources */,
+				4721D4022193AE4800FFD44A /* PostModel.swift in Sources */,
+				4721D4092193CFFC00FFD44A /* PostConstantKeys.swift in Sources */,
+				4721D3FC2193AB6900FFD44A /* PostListTableViewController.swift in Sources */,
+				4721D4062193B16A00FFD44A /* PostController.swift in Sources */,
+				4721D40D2193D4F800FFD44A /* CommentConstantKeys.swift in Sources */,
+				4721D4002193ABFC00FFD44A /* AddPostTableViewController.swift in Sources */,
+				4721D3FE2193ABCC00FFD44A /* PostDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +388,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Continuum-iOS22/Continuum-iOS22.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = "Continuum-iOS22/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Continuum-iOS22/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,9 +407,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Continuum-iOS22/Continuum-iOS22.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = "Continuum-iOS22/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Continuum-iOS22/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
